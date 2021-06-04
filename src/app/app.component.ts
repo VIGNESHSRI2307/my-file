@@ -5,6 +5,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+  
 })
 export class AppComponent {
   profileForm=new FormGroup({
@@ -20,4 +21,5 @@ export class AppComponent {
     console.log("formsubmit")
     console.log(this.profileForm.value)
   }
+  
 }

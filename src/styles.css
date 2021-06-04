@@ -1,4 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
-.nav a{
-    background-color: chartreuse;
+.name{
+    background: green;
+  text-align: center;
+ color: blanchedalmond
+}
+.address-card{
+    text-align: center;
+    background-color:greenyellow;
+    padding: 29%;
+    text-transform: capitalize;
 }
