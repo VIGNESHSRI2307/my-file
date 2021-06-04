@@ -1,4 +1,12 @@
- <app-footer></app-footer>
+<h1>WELCOME!</h1>
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()"><br>
+    enter your name:<input type="text" formControlName="username"><br>
+    <br>
+    enter your email:<input type="text" formControlName="email"><br>
+    <br>
+    <button type="submit">SAVE</button>
+</form>
+<app-footer></app-footer>
 <app-header></app-header>
 <app-dashboard></app-dashboard>
 <app-login></app-login> 
