@@ -6,4 +6,24 @@
  keep any one button
     <button type="button" onclick="">Submit</button>
 </form> -->
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()"><br>
+     name:<input type="text" formControlName="username"><br>
+    <span class="text-danger"
+    *ngIf="(profileFormControl.username.touched || submitted) && profileFormControl.username.errors?.required">
+    Name is required
+</span>
+     <br>
+     email:<input type="text" formControlName="email"><br>
+     <span class="text-danger"
+     *ngIf="(profileFormControl.email.touched || submitted) 
+     && profileFormControl.email.errors?.required">
+     Email is required
+ </span>
+ <span class="text-danger"
+    *ngIf="profileFormControl.email.touched && profileFormControl.email.errors?.email">
+       Enter a valid email address
+</span>
+    <br>
+    <button type="submit">SAVE</button>
+</form>
 
