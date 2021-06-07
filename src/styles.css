@@ -1,4 +1,4 @@
-.name{
+.active{
     background: green;
   text-align: center;
  color: blanchedalmond
@@ -8,4 +8,13 @@
     background-color:greenyellow;
     padding: 29%;
     text-transform: capitalize;
+}
+.div-action{
+     text-align:bottom;
+}
+.add{
+    text-align:center;
+    background-position:top;
+    background-color: chartreuse;
+    
 }
