@@ -5,7 +5,6 @@
 }
 .address-card{
     text-align: center;
-    background-color:greenyellow;
     padding: 29%;
     text-transform: capitalize;
 }
@@ -13,8 +12,30 @@
      text-align:bottom;
 }
 .add{
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    float: left;
     text-align:center;
     background-position:top;
     background-color: chartreuse;
     
+}
+.address-card{
+    background-image: url(./app/imag/pic.webp);
+    background-size: cover;
+    color: white;
+}
+.card{
+    background-image: url(./app/logo/logo.jpg);
+    background-size:cover;
+    color:white;
+    padding: 400px;
+    text-transform:inherit;
+    text-align: center;
+     text-align-last:center;
+}
+.what{
+    background-image: url(./app/imag/worke.jpg);
+    background-size:cover;
+    padding:50%;
+    width: inherit;
 }
