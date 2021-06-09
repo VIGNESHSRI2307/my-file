@@ -34,9 +34,9 @@
      text-align-last:center;
 }
 .what{
-    background-image: url(./app/imag/worke.jpg);
+    background-image: url(./app/imag/Breakthrough.png);
     background-size:cover;
-    padding:50%;
+    padding: 440px;;
     width: inherit;
 }
 .true{
