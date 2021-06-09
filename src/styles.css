@@ -39,3 +39,11 @@
     padding:50%;
     width: inherit;
 }
+.true{
+    text-align: center;
+    background-color:greenyellow;
+    color:black;
+    padding: auto;
+    width: initial;
+    text-transform: capitalize;
+}

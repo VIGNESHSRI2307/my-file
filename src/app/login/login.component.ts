@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup,Validators,FormBuilder } from '@angular/forms';
-
+import {MessageService} from '../message.service'
 
 @Component({
   selector: 'app-login',
@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   //   email:new FormControl('')
   // })
   submitted=false
-  constructor(private Fb:FormBuilder) {  
+  constructor(private Fb:FormBuilder,private msg:MessageService) {  
 }
 profileForm=this.Fb.group({
   username:['',Validators.required],
@@ -30,6 +30,10 @@ onSubmit(){
 }
 get profileFormControl() {
   return this.profileForm.controls;
+
+}
+onclicked(){
+  alert(this.msg.getMessage())
 }
 
   ngOnInit(): void {
